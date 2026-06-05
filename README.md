@@ -1,4 +1,4 @@
-# APM Packages
+# APM Packages for my work
 
 A collection of [APM](https://microsoft.github.io/apm/) (Agent Package Manager) projects I use for different purposes. Each folder is a standalone APM project with its own `apm.yml` bundling the skills, plugins, and tools for that workflow.
 
