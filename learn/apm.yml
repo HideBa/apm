@@ -1,0 +1,17 @@
+name: learn
+version: 1.0.0
+description: APM project for learn
+author: HideBa
+dependencies:
+  apm:
+    - vercel-labs/agent-skills
+    - anthropics/claude-plugins-official/plugins/claude-md-management
+    - anthropics/claude-plugins-official/plugins/commit-commands
+    - anthropics/claude-plugins-official/plugins/explanatory-output-style
+    - anthropics/claude-plugins-official/plugins/learning-output-style
+    - anthropics/claude-plugins-official/external_plugins/context7
+    - anthropics/claude-plugins-official/external_plugins/github
+    - obra/superpowers
+  mcp: []
+includes: auto
+scripts: {}

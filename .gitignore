@@ -1,0 +1,9 @@
+apm_modules/
+.claude/
+.codex/
+.cursor/
+.github/
+.agents/
+!.github/workflows/
+!.github/ISSUE_TEMPLATE/
+!.github/PULL_REQUEST_TEMPLATE/

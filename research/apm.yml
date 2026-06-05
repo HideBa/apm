@@ -1,0 +1,13 @@
+name: read and write research papers
+version: 1.0.0
+description: APM project for research
+author: HideBa
+dependencies:
+  apm:
+  - Imbad0202/academic-research-skills
+  - cookjohn/gs-skills
+  - apcamargo/typst-skills/typst-author
+  - apcamargo/typst-skills/touying-author
+  mcp: []
+includes: auto
+scripts: {}

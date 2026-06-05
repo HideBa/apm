@@ -1,0 +1,82 @@
+lockfile_version: '1'
+generated_at: '2026-06-05T10:35:32.289795+00:00'
+apm_version: 0.12.1
+dependencies:
+- repo_url: Imbad0202/academic-research-skills
+  host: github.com
+  resolved_commit: 3ab2b2247a102cbce0100591ef2035d42902e4ba
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/academic-paper
+  - .agents/skills/academic-paper-reviewer
+  - .agents/skills/academic-pipeline
+  - .agents/skills/deep-research
+  - .github/agents/report_compiler_agent.agent.md
+  - .github/agents/research_architect_agent.agent.md
+  - .github/agents/synthesis_agent.agent.md
+  - .github/hooks/academic-research-skills-hooks.json
+  - .github/hooks/academic-research-skills-hooks.json
+  - .github/prompts/ars-abstract.prompt.md
+  - .github/prompts/ars-cache-invalidate.prompt.md
+  - .github/prompts/ars-citation-check.prompt.md
+  - .github/prompts/ars-disclosure.prompt.md
+  - .github/prompts/ars-format-convert.prompt.md
+  - .github/prompts/ars-full.prompt.md
+  - .github/prompts/ars-lit-review.prompt.md
+  - .github/prompts/ars-mark-read.prompt.md
+  - .github/prompts/ars-outline.prompt.md
+  - .github/prompts/ars-plan.prompt.md
+  - .github/prompts/ars-reviewer.prompt.md
+  - .github/prompts/ars-revision-coach.prompt.md
+  - .github/prompts/ars-revision.prompt.md
+  - .github/prompts/ars-unmark-read.prompt.md
+  deployed_file_hashes:
+    .github/agents/report_compiler_agent.agent.md: sha256:b706abf03e6baa968b68e87c8af1eec9d6b9594992b521d6f81cca2702ac135f
+    .github/agents/research_architect_agent.agent.md: sha256:b2b869f2312cec860f6023f23921e36602898993c8eba530ec0654a60166c3c6
+    .github/agents/synthesis_agent.agent.md: sha256:8f0eff8dbe7c72e61b384b7dc078855cb8f24670c259b36c27c88d79f38c5530
+    .github/hooks/academic-research-skills-hooks.json: sha256:f5a13339a0f18c4b64d6c176c8e2454559d2e5c1521095a79f9cd3397b914726
+    .github/prompts/ars-abstract.prompt.md: sha256:e540dd92c86f84e0a4ec104309b3471a25db189e9d7704ac3fdb82e2d7271b9a
+    .github/prompts/ars-cache-invalidate.prompt.md: sha256:3f734cdf9f46983ea314f0f792b37057661b547b208dbab6efc9fc18de9167cb
+    .github/prompts/ars-citation-check.prompt.md: sha256:9cb26fac0681d2f186750c996ea51ec1dbd1d3480563da6e315c3d67d0751872
+    .github/prompts/ars-disclosure.prompt.md: sha256:97e9f967cd3e8195239e3de36b53628bcb1d284eb8643c666c66fcede90ef99b
+    .github/prompts/ars-format-convert.prompt.md: sha256:e06e9672e862fe032b4d18ec72361f4b95524865e8bcb1625d8c7e0b9b5f2d8d
+    .github/prompts/ars-full.prompt.md: sha256:b97ba58aeb56b4883ca738e3cb877c80e7d152d5735265ceca05a792fdfa7bc9
+    .github/prompts/ars-lit-review.prompt.md: sha256:6a166a22e796d9d14a559586f3a5d8089627978e03386b59ecd2c10ef34654c5
+    .github/prompts/ars-mark-read.prompt.md: sha256:e107bd41e1296acbd7369c8c95144fbaaa2a0de6c672c3774e069a952fe94edd
+    .github/prompts/ars-outline.prompt.md: sha256:90f9b19d009413885fe3fdb6c6cf3dd3af7de53ce94d24cefa7e6683e7ec2a86
+    .github/prompts/ars-plan.prompt.md: sha256:439eac5db96682a9f9bcee12c69c1e2f5d27ae844e0b0467f0017300b62099d1
+    .github/prompts/ars-reviewer.prompt.md: sha256:c8e103219cb5709ff67367b7973bfef80ba99bcfa1612ff1865f3673d4616ae3
+    .github/prompts/ars-revision-coach.prompt.md: sha256:7400ffaa1e87870cb8c41baf8dcedabd9baa09634d32330924432fc2899c87b0
+    .github/prompts/ars-revision.prompt.md: sha256:85d3c54764862063baac17d94b70060c000b120e0ab981fe1f7503d51bd616ff
+    .github/prompts/ars-unmark-read.prompt.md: sha256:f29d01c702928d2a6694f24113c3f3e929ffe2e28539cec484a72e0a55bd48d0
+  content_hash: sha256:6534490085853dc3a69186df3a3f22bfa24b5abab19016cdca18ac590d652d80
+- repo_url: apcamargo/typst-skills
+  host: github.com
+  resolved_commit: 2855d089f420ee7677ef2f504f4277e00535b9a3
+  virtual_path: touying-author
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/touying-author
+  content_hash: sha256:81996f12abf03709a59a86afbee3a06784e6291e8987bd17e83398cc388a4f9c
+- repo_url: apcamargo/typst-skills
+  host: github.com
+  resolved_commit: 2855d089f420ee7677ef2f504f4277e00535b9a3
+  virtual_path: typst-author
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/typst-author
+  content_hash: sha256:91d43776f587a45757b520cbbe0daf32582b25fcc232fd48d5e222457aa178c6
+- repo_url: cookjohn/gs-skills
+  host: github.com
+  resolved_commit: df03c99f1a741ff816e6f0e12c13308279bcd730
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/gs-advanced-search
+  - .agents/skills/gs-cited-by
+  - .agents/skills/gs-export
+  - .agents/skills/gs-fulltext
+  - .agents/skills/gs-navigate-pages
+  - .agents/skills/gs-search
+  content_hash: sha256:988737193395227201dd49f22962c21dce1eddf84605b3b4a40fd4f3ea9d88ae

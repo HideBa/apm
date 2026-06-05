@@ -1,0 +1,56 @@
+name: app-dev
+version: 1.0.0
+description: APM project for app-dev
+author: HideBa
+dependencies:
+  apm:
+  - vercel-labs/agent-skills
+  - anthropics/claude-plugins-official/plugins/claude-md-management
+  - anthropics/claude-plugins-official/plugins/code-modernization
+  - anthropics/claude-plugins-official/plugins/code-simplifier
+  - anthropics/claude-plugins-official/plugins/commit-commands
+  - anthropics/claude-plugins-official/plugins/feature-dev
+  - anthropics/claude-plugins-official/external_plugins/context7
+  - anthropics/claude-plugins-official/external_plugins/github
+  - anthropics/claude-plugins-official/external_plugins/playwright
+  - obra/superpowers
+  - anthropics/claude-plugins-official/plugins/frontend-design
+  - anthropics/claude-plugins-official/plugins/skill-creator
+  lsp:
+    - name: rust-analyzer
+      command: rust-analyzer
+      extensionToLanguage:
+        ".rs": rust
+    - name: typescript-language-server
+      command: typescript-language-server
+      args: ["--stdio"]
+      extensionToLanguage:
+        ".ts": typescript
+        ".tsx": typescriptreact
+        ".mts": typescript
+        ".cts": typescript
+        ".js": javascript
+        ".jsx": javascriptreact
+        ".mjs": javascript
+        ".cjs": javascript
+    - name: pyright
+      command: pyright-langserver
+      args: ["--stdio"]
+      extensionToLanguage:
+        ".py": python
+        ".pyi": python
+    - name: clangd
+      command: clangd
+      extensionToLanguage:
+        ".c": c
+        ".h": cpp
+        ".cpp": cpp
+        ".cc": cpp
+        ".cxx": cpp
+        ".hpp": cpp
+        ".hxx": cpp
+        ".C": cpp
+        ".H": cpp
+  mcp: []
+includes: auto
+scripts: {}

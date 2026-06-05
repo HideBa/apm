@@ -1,0 +1,165 @@
+lockfile_version: '1'
+generated_at: '2026-06-05T10:20:51.767549+00:00'
+apm_version: 0.12.1
+dependencies:
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: external_plugins/context7
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:47c8d66177c370e735e5475029424e48e175ac9381afc34f2b14df56750d237c
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: external_plugins/github
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:68c01b9a9823c2731616eb8ea4cbbbcd2cf37a4667ee15b2469d0df126d0078f
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: external_plugins/playwright
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:d0e6e60181dc5a3147e35ab347f23fd66e1e992b970465c2fcb5a3b7150930f3
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/claude-md-management
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/claude-md-improver
+  - .claude/skills/claude-md-improver
+  content_hash: sha256:eef0aa5a71845be937066ef304fbd152d523d2574587474d342def4c3e8514d4
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/code-modernization
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .claude/agents/architecture-critic.md
+  - .claude/agents/business-rules-extractor.md
+  - .claude/agents/legacy-analyst.md
+  - .claude/agents/security-auditor.md
+  - .claude/agents/test-engineer.md
+  deployed_file_hashes:
+    .claude/agents/architecture-critic.md: sha256:c0922e0378033118af4e4b6eb9c061a8154c01bbe13d6cb68f176d8f200d5ed9
+    .claude/agents/business-rules-extractor.md: sha256:134e83e791767142477746dcf6729e9ca47dfcb4891e1b16af01d93d472eb076
+    .claude/agents/legacy-analyst.md: sha256:18126c7cde8293fe41310e3488ec4d7f128b7ad63ab7bcf0fb5bbe593c828484
+    .claude/agents/security-auditor.md: sha256:d06e789d00b5c58eafbb5f25d108a0c17dbd9ac62441d3547e026d233942adf3
+    .claude/agents/test-engineer.md: sha256:1ca0a9e0277ecf2bcffd9bcf6a8233000ca0698f31efba05b6b02f121ad5945a
+  content_hash: sha256:667df2b686994742050f5fbdb10d50db77d2583758055e9786044055632fa6f8
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/code-simplifier
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .claude/agents/code-simplifier.md
+  deployed_file_hashes:
+    .claude/agents/code-simplifier.md: sha256:2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb
+  content_hash: sha256:17829c1e01585fdaac1ff7de902433fca42517c678ed627640617ef9492bc6e8
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/commit-commands
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:07a5c860a28e2ee25d4c4eaf69c270734d97cfca1dd21423b664bbe0f2f06fce
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/feature-dev
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .claude/agents/code-architect.md
+  - .claude/agents/code-explorer.md
+  - .claude/agents/code-reviewer.md
+  deployed_file_hashes:
+    .claude/agents/code-architect.md: sha256:c50fb08d59a4bbd19660860626a049e44cf1a2b0c1cf782e6c7a99ba7e71b0c3
+    .claude/agents/code-explorer.md: sha256:3b277703de7458988ec3b8021c716f79f642e174950ed332629310f68322029a
+    .claude/agents/code-reviewer.md: sha256:a7df173bf77a00da5584c6401a1061524fdbe477b6fef5dd496d4c7a9113c78c
+  content_hash: sha256:60183922aa3f2fea5b7e96e4279f9e75463cce2119ea00bf696f19b3a4628876
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/frontend-design
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/frontend-design
+  - .claude/skills/frontend-design
+  content_hash: sha256:e59e204cf51cc9d60e6d73faebc1e849c35e24a040b8ee335068f869393a8237
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/skill-creator
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/skill-creator
+  - .claude/skills/skill-creator
+  content_hash: sha256:aba128621c362d7105851e838f570e133678ccfd37736c6b0037ea56b6090126
+- repo_url: obra/superpowers
+  host: github.com
+  resolved_commit: 6fd4507659784c351abbd2bc264c7162cfd386dc
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/brainstorming
+  - .agents/skills/dispatching-parallel-agents
+  - .agents/skills/executing-plans
+  - .agents/skills/finishing-a-development-branch
+  - .agents/skills/receiving-code-review
+  - .agents/skills/requesting-code-review
+  - .agents/skills/subagent-driven-development
+  - .agents/skills/systematic-debugging
+  - .agents/skills/test-driven-development
+  - .agents/skills/using-git-worktrees
+  - .agents/skills/using-superpowers
+  - .agents/skills/verification-before-completion
+  - .agents/skills/writing-plans
+  - .agents/skills/writing-skills
+  - .claude/skills/brainstorming
+  - .claude/skills/dispatching-parallel-agents
+  - .claude/skills/executing-plans
+  - .claude/skills/finishing-a-development-branch
+  - .claude/skills/receiving-code-review
+  - .claude/skills/requesting-code-review
+  - .claude/skills/subagent-driven-development
+  - .claude/skills/systematic-debugging
+  - .claude/skills/test-driven-development
+  - .claude/skills/using-git-worktrees
+  - .claude/skills/using-superpowers
+  - .claude/skills/verification-before-completion
+  - .claude/skills/writing-plans
+  - .claude/skills/writing-skills
+  content_hash: sha256:8b91ca49cbf065ffb70c91fc5b4f9a437fc56ab022203e6a617e89f9ca2730c4
+- repo_url: vercel-labs/agent-skills
+  host: github.com
+  resolved_commit: 4ec6f84b61cd3c931046c3e6e398f3ae7de372f7
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/composition-patterns
+  - .agents/skills/deploy-to-vercel
+  - .agents/skills/react-best-practices
+  - .agents/skills/react-native-skills
+  - .agents/skills/react-view-transitions
+  - .agents/skills/vercel-cli-with-tokens
+  - .agents/skills/vercel-optimize
+  - .agents/skills/web-design-guidelines
+  - .agents/skills/writing-guidelines
+  - .claude/skills/composition-patterns
+  - .claude/skills/deploy-to-vercel
+  - .claude/skills/react-best-practices
+  - .claude/skills/react-native-skills
+  - .claude/skills/react-view-transitions
+  - .claude/skills/vercel-cli-with-tokens
+  - .claude/skills/vercel-optimize
+  - .claude/skills/web-design-guidelines
+  - .claude/skills/writing-guidelines
+  content_hash: sha256:cd393ae28e44fde211307066d7f747cd007dadb3dfb06c11b8646e2c3326396a

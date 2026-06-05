@@ -1,0 +1,107 @@
+lockfile_version: '1'
+generated_at: '2026-06-05T10:22:50.530048+00:00'
+apm_version: 0.12.1
+dependencies:
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: external_plugins/context7
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:47c8d66177c370e735e5475029424e48e175ac9381afc34f2b14df56750d237c
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: external_plugins/github
+  is_virtual: true
+  package_type: marketplace_plugin
+  content_hash: sha256:68c01b9a9823c2731616eb8ea4cbbbcd2cf37a4667ee15b2469d0df126d0078f
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/claude-md-management
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/claude-md-improver
+  - .github/prompts/revise-claude-md.prompt.md
+  deployed_file_hashes:
+    .github/prompts/revise-claude-md.prompt.md: sha256:d59ffd7ef2b793bdfda0efbeed6bb948cb9a455d1fe6cccb54fe4585788c68e9
+  content_hash: sha256:eef0aa5a71845be937066ef304fbd152d523d2574587474d342def4c3e8514d4
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/commit-commands
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .github/prompts/clean_gone.prompt.md
+  - .github/prompts/commit-push-pr.prompt.md
+  - .github/prompts/commit.prompt.md
+  deployed_file_hashes:
+    .github/prompts/clean_gone.prompt.md: sha256:4f07fa2ccf4f81a69c6455bdc563b53a3d3b20aea6e4e82337c52b172ee02344
+    .github/prompts/commit-push-pr.prompt.md: sha256:3bc3d171939149cbbef141cbced553dce6ba6f97dac4a764f4ef1e055c35064d
+    .github/prompts/commit.prompt.md: sha256:d1acbc2bf0c50164f48d6bda872de6a343cd9390954ce903c3431c3119e7f8c4
+  content_hash: sha256:07a5c860a28e2ee25d4c4eaf69c270734d97cfca1dd21423b664bbe0f2f06fce
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/explanatory-output-style
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .github/hooks/explanatory-output-style-hooks.json
+  deployed_file_hashes:
+    .github/hooks/explanatory-output-style-hooks.json: sha256:f941cedcbac07688675fb8d0fad741e9ba13900d73416409861001efe3fedba9
+  content_hash: sha256:915c880289063b96a34836d38fc495284167009b9f46dcd5180b8672f9b76ba9
+- repo_url: anthropics/claude-plugins-official
+  host: github.com
+  resolved_commit: bd7cf41fc8a468b136a9266633303ff4a011c7b4
+  virtual_path: plugins/learning-output-style
+  is_virtual: true
+  package_type: marketplace_plugin
+  deployed_files:
+  - .github/hooks/learning-output-style-hooks.json
+  deployed_file_hashes:
+    .github/hooks/learning-output-style-hooks.json: sha256:2f5725548acfcae80ae997996a5037aad0754c13498cd81b87df35893f283db8
+  content_hash: sha256:5ad60a0423df3e6021e01ab0e30f1f409e50d589467d1a9130700a9c6f72e212
+- repo_url: obra/superpowers
+  host: github.com
+  resolved_commit: 6fd4507659784c351abbd2bc264c7162cfd386dc
+  package_type: marketplace_plugin
+  deployed_files:
+  - .agents/skills/brainstorming
+  - .agents/skills/dispatching-parallel-agents
+  - .agents/skills/executing-plans
+  - .agents/skills/finishing-a-development-branch
+  - .agents/skills/receiving-code-review
+  - .agents/skills/requesting-code-review
+  - .agents/skills/subagent-driven-development
+  - .agents/skills/systematic-debugging
+  - .agents/skills/test-driven-development
+  - .agents/skills/using-git-worktrees
+  - .agents/skills/using-superpowers
+  - .agents/skills/verification-before-completion
+  - .agents/skills/writing-plans
+  - .agents/skills/writing-skills
+  - .github/hooks/superpowers-hooks-cursor.json
+  - .github/hooks/superpowers-hooks.json
+  deployed_file_hashes:
+    .github/hooks/superpowers-hooks-cursor.json: sha256:53d8ceb3ff5d8bb1c4f283f238cc868b8c1af22e40a3ac30f6d6e4173effefbd
+    .github/hooks/superpowers-hooks.json: sha256:01616c57b96cc234cc984e77d2fc241dfd0e0bfacda54fe54589cd669a0d998e
+  content_hash: sha256:8b91ca49cbf065ffb70c91fc5b4f9a437fc56ab022203e6a617e89f9ca2730c4
+- repo_url: vercel-labs/agent-skills
+  host: github.com
+  resolved_commit: 4ec6f84b61cd3c931046c3e6e398f3ae7de372f7
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/composition-patterns
+  - .agents/skills/deploy-to-vercel
+  - .agents/skills/react-best-practices
+  - .agents/skills/react-native-skills
+  - .agents/skills/react-view-transitions
+  - .agents/skills/vercel-cli-with-tokens
+  - .agents/skills/vercel-optimize
+  - .agents/skills/web-design-guidelines
+  - .agents/skills/writing-guidelines
+  content_hash: sha256:cd393ae28e44fde211307066d7f747cd007dadb3dfb06c11b8646e2c3326396a
