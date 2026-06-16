@@ -16,41 +16,44 @@ dependencies:
   - obra/superpowers
   - anthropics/claude-plugins-official/plugins/frontend-design
   - anthropics/claude-plugins-official/plugins/skill-creator
+  - github/awesome-copilot/skills/lsp-setup
   lsp:
-    - name: rust-analyzer
-      command: rust-analyzer
-      extensionToLanguage:
-        ".rs": rust
-    - name: typescript-language-server
-      command: typescript-language-server
-      args: ["--stdio"]
-      extensionToLanguage:
-        ".ts": typescript
-        ".tsx": typescriptreact
-        ".mts": typescript
-        ".cts": typescript
-        ".js": javascript
-        ".jsx": javascriptreact
-        ".mjs": javascript
-        ".cjs": javascript
-    - name: pyright
-      command: pyright-langserver
-      args: ["--stdio"]
-      extensionToLanguage:
-        ".py": python
-        ".pyi": python
-    - name: clangd
-      command: clangd
-      extensionToLanguage:
-        ".c": c
-        ".h": cpp
-        ".cpp": cpp
-        ".cc": cpp
-        ".cxx": cpp
-        ".hpp": cpp
-        ".hxx": cpp
-        ".C": cpp
-        ".H": cpp
+  - name: rust-analyzer
+    command: rust-analyzer
+    extensionToLanguage:
+      .rs: rust
+  - name: typescript-language-server
+    command: typescript-language-server
+    args:
+    - --stdio
+    extensionToLanguage:
+      .ts: typescript
+      .tsx: typescriptreact
+      .mts: typescript
+      .cts: typescript
+      .js: javascript
+      .jsx: javascriptreact
+      .mjs: javascript
+      .cjs: javascript
+  - name: pyright
+    command: pyright-langserver
+    args:
+    - --stdio
+    extensionToLanguage:
+      .py: python
+      .pyi: python
+  - name: clangd
+    command: clangd
+    extensionToLanguage:
+      .c: c
+      .h: cpp
+      .cpp: cpp
+      .cc: cpp
+      .cxx: cpp
+      .hpp: cpp
+      .hxx: cpp
+      .C: cpp
+      .H: cpp
   mcp: []
 includes: auto
 scripts: {}

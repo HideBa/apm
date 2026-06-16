@@ -137,6 +137,15 @@ dependencies:
   deployed_files:
   - .agents/skills/skill-creator
   content_hash: sha256:aba128621c362d7105851e838f570e133678ccfd37736c6b0037ea56b6090126
+- repo_url: github/awesome-copilot
+  host: github.com
+  resolved_commit: 213aafebf9dd1c839a667ac32d13dda6b0243cc7
+  virtual_path: skills/lsp-setup
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/lsp-setup
+  content_hash: sha256:081a8a321adb82aa4185cbde288fbfb7c89653ca104c700adc664cbea9d6f3a2
 - repo_url: obra/superpowers
   host: github.com
   resolved_commit: 6fd4507659784c351abbd2bc264c7162cfd386dc
