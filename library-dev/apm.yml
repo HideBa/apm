@@ -17,10 +17,6 @@ dependencies:
   - obra/superpowers
   - anthropics/claude-plugins-official/plugins/rust-analyzer-lsp
   - anthropics/claude-plugins-official/plugins/skill-creator
-  - anthropics/claude-plugins-official/plugins/pyright-lsp
-  - anthropics/claude-plugins-official/plugins/typescript-lsp
-  - anthropics/claude-plugins-official/plugins/clangd-lsp
-  - github/awesome-copilot/skills/lsp-setup
   lsp:
   - name: rust-analyzer
     command: rust-analyzer

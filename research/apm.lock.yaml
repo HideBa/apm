@@ -1,55 +1,56 @@
 lockfile_version: '1'
-generated_at: '2026-06-05T10:35:32.289795+00:00'
+generated_at: '2026-06-17T16:38:20.546278+00:00'
 apm_version: 0.12.1
 dependencies:
 - repo_url: Imbad0202/academic-research-skills
   host: github.com
-  resolved_commit: 3ab2b2247a102cbce0100591ef2035d42902e4ba
+  resolved_commit: 88fc003e6abf5fe9fe86dc8200f8d4aa8d511956
   package_type: marketplace_plugin
   deployed_files:
-  - .agents/skills/academic-paper
-  - .agents/skills/academic-paper-reviewer
-  - .agents/skills/academic-pipeline
-  - .agents/skills/deep-research
-  - .github/agents/report_compiler_agent.agent.md
-  - .github/agents/research_architect_agent.agent.md
-  - .github/agents/synthesis_agent.agent.md
-  - .github/hooks/academic-research-skills-hooks.json
-  - .github/hooks/academic-research-skills-hooks.json
-  - .github/prompts/ars-abstract.prompt.md
-  - .github/prompts/ars-cache-invalidate.prompt.md
-  - .github/prompts/ars-citation-check.prompt.md
-  - .github/prompts/ars-disclosure.prompt.md
-  - .github/prompts/ars-format-convert.prompt.md
-  - .github/prompts/ars-full.prompt.md
-  - .github/prompts/ars-lit-review.prompt.md
-  - .github/prompts/ars-mark-read.prompt.md
-  - .github/prompts/ars-outline.prompt.md
-  - .github/prompts/ars-plan.prompt.md
-  - .github/prompts/ars-reviewer.prompt.md
-  - .github/prompts/ars-revision-coach.prompt.md
-  - .github/prompts/ars-revision.prompt.md
-  - .github/prompts/ars-unmark-read.prompt.md
+  - .claude/agents/report_compiler_agent.md
+  - .claude/agents/research_architect_agent.md
+  - .claude/agents/synthesis_agent.md
+  - .claude/commands/ars-3w.md
+  - .claude/commands/ars-abstract.md
+  - .claude/commands/ars-cache-invalidate.md
+  - .claude/commands/ars-citation-check.md
+  - .claude/commands/ars-disclosure.md
+  - .claude/commands/ars-format-convert.md
+  - .claude/commands/ars-full.md
+  - .claude/commands/ars-lit-review.md
+  - .claude/commands/ars-mark-read.md
+  - .claude/commands/ars-outline.md
+  - .claude/commands/ars-plan.md
+  - .claude/commands/ars-rebuttal-audit.md
+  - .claude/commands/ars-reviewer.md
+  - .claude/commands/ars-revision-coach.md
+  - .claude/commands/ars-revision.md
+  - .claude/commands/ars-unmark-read.md
+  - .claude/skills/academic-paper
+  - .claude/skills/academic-paper-reviewer
+  - .claude/skills/academic-pipeline
+  - .claude/skills/deep-research
   deployed_file_hashes:
-    .github/agents/report_compiler_agent.agent.md: sha256:b706abf03e6baa968b68e87c8af1eec9d6b9594992b521d6f81cca2702ac135f
-    .github/agents/research_architect_agent.agent.md: sha256:b2b869f2312cec860f6023f23921e36602898993c8eba530ec0654a60166c3c6
-    .github/agents/synthesis_agent.agent.md: sha256:8f0eff8dbe7c72e61b384b7dc078855cb8f24670c259b36c27c88d79f38c5530
-    .github/hooks/academic-research-skills-hooks.json: sha256:f5a13339a0f18c4b64d6c176c8e2454559d2e5c1521095a79f9cd3397b914726
-    .github/prompts/ars-abstract.prompt.md: sha256:e540dd92c86f84e0a4ec104309b3471a25db189e9d7704ac3fdb82e2d7271b9a
-    .github/prompts/ars-cache-invalidate.prompt.md: sha256:3f734cdf9f46983ea314f0f792b37057661b547b208dbab6efc9fc18de9167cb
-    .github/prompts/ars-citation-check.prompt.md: sha256:9cb26fac0681d2f186750c996ea51ec1dbd1d3480563da6e315c3d67d0751872
-    .github/prompts/ars-disclosure.prompt.md: sha256:97e9f967cd3e8195239e3de36b53628bcb1d284eb8643c666c66fcede90ef99b
-    .github/prompts/ars-format-convert.prompt.md: sha256:e06e9672e862fe032b4d18ec72361f4b95524865e8bcb1625d8c7e0b9b5f2d8d
-    .github/prompts/ars-full.prompt.md: sha256:b97ba58aeb56b4883ca738e3cb877c80e7d152d5735265ceca05a792fdfa7bc9
-    .github/prompts/ars-lit-review.prompt.md: sha256:6a166a22e796d9d14a559586f3a5d8089627978e03386b59ecd2c10ef34654c5
-    .github/prompts/ars-mark-read.prompt.md: sha256:e107bd41e1296acbd7369c8c95144fbaaa2a0de6c672c3774e069a952fe94edd
-    .github/prompts/ars-outline.prompt.md: sha256:90f9b19d009413885fe3fdb6c6cf3dd3af7de53ce94d24cefa7e6683e7ec2a86
-    .github/prompts/ars-plan.prompt.md: sha256:439eac5db96682a9f9bcee12c69c1e2f5d27ae844e0b0467f0017300b62099d1
-    .github/prompts/ars-reviewer.prompt.md: sha256:c8e103219cb5709ff67367b7973bfef80ba99bcfa1612ff1865f3673d4616ae3
-    .github/prompts/ars-revision-coach.prompt.md: sha256:7400ffaa1e87870cb8c41baf8dcedabd9baa09634d32330924432fc2899c87b0
-    .github/prompts/ars-revision.prompt.md: sha256:85d3c54764862063baac17d94b70060c000b120e0ab981fe1f7503d51bd616ff
-    .github/prompts/ars-unmark-read.prompt.md: sha256:f29d01c702928d2a6694f24113c3f3e929ffe2e28539cec484a72e0a55bd48d0
-  content_hash: sha256:6534490085853dc3a69186df3a3f22bfa24b5abab19016cdca18ac590d652d80
+    .claude/agents/report_compiler_agent.md: sha256:cd8c13fb313042f8eb475f6f534928d7bb3c17153d5454b47695cc030385b278
+    .claude/agents/research_architect_agent.md: sha256:b2b869f2312cec860f6023f23921e36602898993c8eba530ec0654a60166c3c6
+    .claude/agents/synthesis_agent.md: sha256:ccd60f7b14fa302f9429d7c15e9ccc5f4c2d9ae61feeb01807010f882e8f881f
+    .claude/commands/ars-3w.md: sha256:c8f536b8362587acfffe9282f850c030041d7544bcdf81bad4e60ea2f147b99c
+    .claude/commands/ars-abstract.md: sha256:7c88dcf0a16fb8a288f99306559131e6c5839b65b02bcc05a70ba4ac7c50ee51
+    .claude/commands/ars-cache-invalidate.md: sha256:ca7f69b81770999ae6b9c36df2d9bd3ea4685dbd2929bd5701c9d206ebf41862
+    .claude/commands/ars-citation-check.md: sha256:7ca10b2da443fc4add75e3f8e6130e419f7d2064469b8fa7c961d7685e46090c
+    .claude/commands/ars-disclosure.md: sha256:086f9fa33fdf1d6e9e53010263f09b6d26dab121c12aaf1ae77bed1c5c738eee
+    .claude/commands/ars-format-convert.md: sha256:ec0cb5519a0c64ecd125ea81876c06c02d3832868e68ff8761ce618d8dedfe6e
+    .claude/commands/ars-full.md: sha256:2e14679cb1f1da07bab196f49607cdf740cb76ba34560c781bac5683011310ee
+    .claude/commands/ars-lit-review.md: sha256:5a12d77a03c7ef785254b096077bcfe6c68f436bb2235799afb81141c254a0fb
+    .claude/commands/ars-mark-read.md: sha256:80a83c85ccc50d900e30b9f0e6919c57f5f0b5f0e69c438204d53726d0a506d7
+    .claude/commands/ars-outline.md: sha256:f37324a4e880f539b58462c2112ac79bd39ccc7b68db0942264be9f283ac4bd3
+    .claude/commands/ars-plan.md: sha256:62c95f4b7e1ec386bd867a8da25dc15923baf347d752df7d238743bceaa5f75c
+    .claude/commands/ars-rebuttal-audit.md: sha256:153e120f94dbaed0c8264c890d6a4541b960b1609f2d73ba32ac0a593c09af8f
+    .claude/commands/ars-reviewer.md: sha256:33b42aa89b07ffe7b890f763005cfca39ea6013d4cbea9712b56f4f2084355f1
+    .claude/commands/ars-revision-coach.md: sha256:60953c17c4d91cc1b14debfaea9e3fa9b239687b1616c20e9dd3ec06a7ea5a09
+    .claude/commands/ars-revision.md: sha256:301e54ba874dbf2acd1dbaa03874cd3be3ec559c73c890b51bc5be77a59d8ecb
+    .claude/commands/ars-unmark-read.md: sha256:0fe073fd4bcfa26d9c1e19aa31580d5c262d07f9bbce166b8568e937479dc2e4
+  content_hash: sha256:af2c67dacb50ac0293c3543c1f19920be5702f4f342321f1b263605ce432c440
 - repo_url: apcamargo/typst-skills
   host: github.com
   resolved_commit: 2855d089f420ee7677ef2f504f4277e00535b9a3
@@ -57,7 +58,7 @@ dependencies:
   is_virtual: true
   package_type: claude_skill
   deployed_files:
-  - .agents/skills/touying-author
+  - .claude/skills/touying-author
   content_hash: sha256:81996f12abf03709a59a86afbee3a06784e6291e8987bd17e83398cc388a4f9c
 - repo_url: apcamargo/typst-skills
   host: github.com
@@ -66,17 +67,17 @@ dependencies:
   is_virtual: true
   package_type: claude_skill
   deployed_files:
-  - .agents/skills/typst-author
+  - .claude/skills/typst-author
   content_hash: sha256:91d43776f587a45757b520cbbe0daf32582b25fcc232fd48d5e222457aa178c6
 - repo_url: cookjohn/gs-skills
   host: github.com
   resolved_commit: df03c99f1a741ff816e6f0e12c13308279bcd730
   package_type: skill_bundle
   deployed_files:
-  - .agents/skills/gs-advanced-search
-  - .agents/skills/gs-cited-by
-  - .agents/skills/gs-export
-  - .agents/skills/gs-fulltext
-  - .agents/skills/gs-navigate-pages
-  - .agents/skills/gs-search
+  - .claude/skills/gs-advanced-search
+  - .claude/skills/gs-cited-by
+  - .claude/skills/gs-export
+  - .claude/skills/gs-fulltext
+  - .claude/skills/gs-navigate-pages
+  - .claude/skills/gs-search
   content_hash: sha256:988737193395227201dd49f22962c21dce1eddf84605b3b4a40fd4f3ea9d88ae

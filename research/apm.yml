@@ -4,10 +4,13 @@ description: APM project for research
 author: HideBa
 dependencies:
   apm:
-  - Imbad0202/academic-research-skills
   - cookjohn/gs-skills
   - apcamargo/typst-skills/typst-author
   - apcamargo/typst-skills/touying-author
   mcp: []
 includes: auto
-scripts: {}
+scripts: {
+  claude: "claude plugin marketplace add Imbad0202/academic-research-skills && claude plugin install academic-research-skills",
+  codex: 'rm -rf "$HOME/.codex/skills/academic-research-suite" && 
+  python3 "$HOME/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py" --repo Imbad0202/academic-research-skills-codex --ref main --path skills/academic-research-suite --method git'
+}
