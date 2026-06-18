@@ -15,7 +15,6 @@ dependencies:
   - anthropics/claude-plugins-official/external_plugins/github
   - anthropics/claude-plugins-official/external_plugins/playwright
   - obra/superpowers
-  - anthropics/claude-plugins-official/plugins/rust-analyzer-lsp
   - anthropics/claude-plugins-official/plugins/skill-creator
   lsp:
   - name: rust-analyzer
