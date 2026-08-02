@@ -69,6 +69,110 @@ dependencies:
   deployed_files:
   - .claude/skills/typst-author
   content_hash: sha256:91d43776f587a45757b520cbbe0daf32582b25fcc232fd48d5e222457aa178c6
+- repo_url: blader/humanizer
+  host: github.com
+  resolved_commit: 523374dee72d67c7b2b5f858ea0094ffda49c3ac
+  package_type: marketplace_plugin
+  deployed_files:
+  - .claude/skills/humanizer
+  - .claude/skills/humanizer/.claude-plugin/marketplace.json
+  - .claude/skills/humanizer/.claude-plugin/plugin.json
+  - .claude/skills/humanizer/.github/workflows/validate.yml
+  - .claude/skills/humanizer/AGENTS.md
+  - .claude/skills/humanizer/LICENSE
+  - .claude/skills/humanizer/README.md
+  - .claude/skills/humanizer/SKILL.md
+  - .claude/skills/humanizer/agents/openai.yaml
+  - .claude/skills/humanizer/apm.yml
+  - .claude/skills/humanizer/scripts/validate-package.py
+  deployed_file_hashes:
+    .claude/skills/humanizer/.claude-plugin/marketplace.json: sha256:141736822a343ca0b605d7a9298fef4b692a69368215338df76efb876af442e4
+    .claude/skills/humanizer/.claude-plugin/plugin.json: sha256:f31bf57f37eabb0d4e2eab4deb4f69bf64cc4db164d4809cc57f8c9502aa4eb8
+    .claude/skills/humanizer/.github/workflows/validate.yml: sha256:4ee5852335371388b4a621e2a1e5d0115b3046d214ff2b43377a2422e77a4185
+    .claude/skills/humanizer/AGENTS.md: sha256:9394319b85795f13527b6462ac660d8e59ac43dd0e84f2bb2c3a1891e62ad402
+    .claude/skills/humanizer/LICENSE: sha256:4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96
+    .claude/skills/humanizer/README.md: sha256:cb771a5ac98040b72ea1479f25bedec9e619c85f8b1493c205105a3b714a9d86
+    .claude/skills/humanizer/SKILL.md: sha256:70938f3cce25970e1ded5fdd194b755c03f1e4e4fa76820958ce78f86b677b1a
+    .claude/skills/humanizer/agents/openai.yaml: sha256:7b4289413ca3de49c7efc2798ac230e7ae563a6bd7eadf799ee5b2d75c261d25
+    .claude/skills/humanizer/apm.yml: sha256:f64de816c85ea4f480c8156c1296966cc39275de0d2a8f7524e2e95048aa1ed9
+    .claude/skills/humanizer/scripts/validate-package.py: sha256:d2c5496ca73a8ce2d3f0cad6681724170d8566bef54d36dfc1e5d3972597b614
+  content_hash: sha256:35899a759dd75830d6433ac9f874c331a0128690c26a5cb3e3ca7bac505f3588
+  discovered_via: humanizer
+  marketplace_plugin_name: humanizer
+- repo_url: caylent/tufte-data-viz
+  host: github.com
+  resolved_commit: ae7ca0de7819db83241b24a2618810d5f1171145
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/tufte-data-viz
+  - .claude/skills/tufte-data-viz/LICENSE
+  - .claude/skills/tufte-data-viz/README.md
+  - .claude/skills/tufte-data-viz/SKILL.md
+  - .claude/skills/tufte-data-viz/_docs/before-after-animated.gif
+  - .claude/skills/tufte-data-viz/_docs/before-after.png
+  - .claude/skills/tufte-data-viz/_docs/generate_showcase.py
+  - .claude/skills/tufte-data-viz/_docs/small-multiples.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-accessible-scatter.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-bar-chart.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-dark-mode.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-data-table.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-light-dark.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-line-chart.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-slopegraph.png
+  - .claude/skills/tufte-data-viz/_docs/tufte-sparklines.png
+  - .claude/skills/tufte-data-viz/docs/index.html
+  - .claude/skills/tufte-data-viz/examples/chartjs-tufte-plugin.js
+  - .claude/skills/tufte-data-viz/examples/echarts-tufte-theme.ts
+  - .claude/skills/tufte-data-viz/examples/matplotlib-tufte-annotated.py
+  - .claude/skills/tufte-data-viz/examples/plotly-tufte-template.py
+  - .claude/skills/tufte-data-viz/examples/recharts-tufte-bar.tsx
+  - .claude/skills/tufte-data-viz/examples/recharts-tufte-line.tsx
+  - .claude/skills/tufte-data-viz/examples/sparkline-inline.svg
+  - .claude/skills/tufte-data-viz/rules/anti-patterns.md
+  - .claude/skills/tufte-data-viz/rules/chartjs.md
+  - .claude/skills/tufte-data-viz/rules/echarts.md
+  - .claude/skills/tufte-data-viz/rules/interactive-and-accessible.md
+  - .claude/skills/tufte-data-viz/rules/matplotlib.md
+  - .claude/skills/tufte-data-viz/rules/plotly.md
+  - .claude/skills/tufte-data-viz/rules/recharts.md
+  - .claude/skills/tufte-data-viz/rules/small-multiples-sparklines.md
+  - .claude/skills/tufte-data-viz/rules/svg-html.md
+  - .claude/skills/tufte-data-viz/rules/typography-and-color.md
+  deployed_file_hashes:
+    .claude/skills/tufte-data-viz/LICENSE: sha256:f01a654b30a5f7d46e9e3e8f080fe6ad5517f26039d19aff490782c47810f263
+    .claude/skills/tufte-data-viz/README.md: sha256:a70f4a6a39ed49b5ac334ac0a4d75da3543073cfdac8dc525d83711ca8488759
+    .claude/skills/tufte-data-viz/SKILL.md: sha256:1131257cf3d8f8dbc4a0794bf390ffb818cd1bef129a5199c87344672170b957
+    .claude/skills/tufte-data-viz/_docs/before-after-animated.gif: sha256:151a663f467d7600f4f8b66982e1fb1c8cbc27a2a398fce6020606c32a55cea7
+    .claude/skills/tufte-data-viz/_docs/before-after.png: sha256:ad1933f04873dae8100d356377d9117a0ab7c31689b243f622b4cfdc5882b981
+    .claude/skills/tufte-data-viz/_docs/generate_showcase.py: sha256:6ae5e179e419821f53d98fcdccb5924b08d1fc1ba5d198118e079dd7622598bf
+    .claude/skills/tufte-data-viz/_docs/small-multiples.png: sha256:668fc79ad5684d4a5402a77d4230c157789cd8210b113fc386c47fb00c488631
+    .claude/skills/tufte-data-viz/_docs/tufte-accessible-scatter.png: sha256:1259af270aae80b2de8660a9d0d1c353427d71145476031de85ceca1e9326fca
+    .claude/skills/tufte-data-viz/_docs/tufte-bar-chart.png: sha256:6e373ed8d17e96eea11f4d0b1bb3ee35dec5c5c6b1839f2710795a35f003df86
+    .claude/skills/tufte-data-viz/_docs/tufte-dark-mode.png: sha256:45bc94558f7367c6cf8fdcc79c0aad7ec4c678f5e67da0969bc71726b12d7070
+    .claude/skills/tufte-data-viz/_docs/tufte-data-table.png: sha256:1188f68d0a62e163ab5aea837ac1ef3cfb01e6dcb428dc3d4797c1264abd9154
+    .claude/skills/tufte-data-viz/_docs/tufte-light-dark.png: sha256:8cca287c0a25b36c2532ae8f6bbebaeca9003fb79acd38022f805c26ed334f93
+    .claude/skills/tufte-data-viz/_docs/tufte-line-chart.png: sha256:f3ca3ce6207357c1fc98eb2a5ee144da937c3033e3f97de1457c45912a11391a
+    .claude/skills/tufte-data-viz/_docs/tufte-slopegraph.png: sha256:c3bb7cac2cd42c488d3210360956c7bce28d5bbd32a2c0295d0e5aab20b3032a
+    .claude/skills/tufte-data-viz/_docs/tufte-sparklines.png: sha256:7b36fcfc52f76bebaf36750b11962e54cf18f6fb6efcbd1c1c5334a630a2defa
+    .claude/skills/tufte-data-viz/docs/index.html: sha256:ddbaf7697b8724bd0d57fa9a7e957cb207942f4deae25f74a4929260ed223d36
+    .claude/skills/tufte-data-viz/examples/chartjs-tufte-plugin.js: sha256:c1fa85b20cef05884c87bc8afa09d81da32957cfcccc426af575d9e9d2d85042
+    .claude/skills/tufte-data-viz/examples/echarts-tufte-theme.ts: sha256:be25b976f028c4a2bc85c8fb200b5474a22ff8b13ff37619619ad1b07df410bf
+    .claude/skills/tufte-data-viz/examples/matplotlib-tufte-annotated.py: sha256:5efcf283f83c9d658b1dbf07a1ed7cf24bae0173daeaed359409bbe373481cb0
+    .claude/skills/tufte-data-viz/examples/plotly-tufte-template.py: sha256:be167be972dc474c7c45b311c8e548f7268e0f8569da81fd8eaca3715a96f31e
+    .claude/skills/tufte-data-viz/examples/recharts-tufte-bar.tsx: sha256:56c690b03c1bcece7cb94391ccfe842592578fcf262742f23ace3a61c2e71024
+    .claude/skills/tufte-data-viz/examples/recharts-tufte-line.tsx: sha256:cf0d0328f7296dba5d2c26d002372a1aad41e1626381b5c06d5eebe29ca3ef2c
+    .claude/skills/tufte-data-viz/examples/sparkline-inline.svg: sha256:dd9c04ddd6cdc57a8a7d581a442910bac4d47c06389cd0b0fb3692823af18118
+    .claude/skills/tufte-data-viz/rules/anti-patterns.md: sha256:691889ad8290cc0b5245358ac0a5350466c326a9e0b03104d91c0087e7751b1a
+    .claude/skills/tufte-data-viz/rules/chartjs.md: sha256:813e9432d845b16e24b13d5637d637242de98b5af0a91e85b342a1e978fd547b
+    .claude/skills/tufte-data-viz/rules/echarts.md: sha256:6912466d000923dd22f1762e415198a62c4ea43874ec1d1fdb16174752ae82ff
+    .claude/skills/tufte-data-viz/rules/interactive-and-accessible.md: sha256:5fabcc960782058e8a0361174f2cf15450b6754f83334abfb44f3b10d56f4b0e
+    .claude/skills/tufte-data-viz/rules/matplotlib.md: sha256:8308b0926147f1045301a8cf7b96a90901aed00adce17462b5fc072799cdb778
+    .claude/skills/tufte-data-viz/rules/plotly.md: sha256:7a7f8601f31cb5c2783de5546d818aab8275754f64b79985bbc40213fc8009eb
+    .claude/skills/tufte-data-viz/rules/recharts.md: sha256:c7a964e525f44e6117f422323dbcfdca2f71e5d0ea29db4b708f916ebdc02fd3
+    .claude/skills/tufte-data-viz/rules/small-multiples-sparklines.md: sha256:ad75c558930dfeb55afd3749a2e65d1ac8e6f6f061aba422b84de381d08dcd03
+    .claude/skills/tufte-data-viz/rules/svg-html.md: sha256:a02b562a939992bba87eea144fe5b7dc7fd9791136163be5f90d43ad039e8a07
+    .claude/skills/tufte-data-viz/rules/typography-and-color.md: sha256:95fa1a0f2461acdc85e56d97716fff9e7edfb07f8c259e0bac282bc100d3a2f6
+  content_hash: sha256:327533c3d34985286655ea27f5c730779dee08fe9f7bcab9f09451571385d1d1
 - repo_url: cookjohn/gs-skills
   host: github.com
   resolved_commit: df03c99f1a741ff816e6f0e12c13308279bcd730
@@ -81,3 +185,14 @@ dependencies:
   - .claude/skills/gs-navigate-pages
   - .claude/skills/gs-search
   content_hash: sha256:988737193395227201dd49f22962c21dce1eddf84605b3b4a40fd4f3ea9d88ae
+local_deployed_files:
+- .claude/skills/paper-preflight
+- .claude/skills/paper-preflight/SKILL.md
+- .claude/skills/paper-preflight/references/formats.md
+- .claude/skills/paper-preflight/scripts/check_consistency.py
+- .claude/skills/paper-preflight/scripts/verify_refs.py
+local_deployed_file_hashes:
+  .claude/skills/paper-preflight/SKILL.md: sha256:86509d80c4cde3bd27ac6683c31560dc8d0bfda6873912a16f5883396e61c856
+  .claude/skills/paper-preflight/references/formats.md: sha256:0a17a5e151beaaebc354104986621a513ebc07b9d5e5df58e0e18e56ec2769a9
+  .claude/skills/paper-preflight/scripts/check_consistency.py: sha256:ee9efcfc0bd76da5c120783d1406a31d7bb83f039e3f5715da664acdccf31ed5
+  .claude/skills/paper-preflight/scripts/verify_refs.py: sha256:86cbb59617848ef5138e779d7235d72f3302a9bc28e1107121a438b8a91d6931

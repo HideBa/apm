@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "03-holistic-final-pass",
+  "prompt": "Final pre-submission pass on my manuscript please. Flag anything wrong with the citations, the way I've described what those cited papers actually found, or inconsistent wording. It's manuscript.typ with refs.yml.",
+  "input_files": ["inputs/manuscript.typ", "inputs/refs.yml"],
+  "assertions": [
+    {"text": "Flags the incorrect year for lecun2015 (bib says 2017; correct is 2015)"},
+    {"text": "Flags 'K. He' as initial-only and does not expand it to a full name"},
+    {"text": "Reports vaswani2017 as an orphan citation (cited but not in the bibliography)"},
+    {"text": "Questions or flags the claim that silver2016 (AlphaGo) 'reduced training compute by 40%' as unsupported / needing human verification rather than accepting it"},
+    {"text": "Does NOT falsely flag the accurate ResNet 3.57% top-5 error claim as wrong (leaves it or marks it verified)"},
+    {"text": "Flags the mixed behaviour vs behavior spelling"},
+    {"text": "Produces a clear report with severity levels and concrete suggested edits"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "eval_id": 0,
+  "eval_name": "01-typst-refs-integrity",
+  "prompt": "I'm about to submit this paper to a journal. Before I do, can you carefully check the references? The paper is main.typ and the bibliography is refs.yml (Typst + Hayagriva). I used a reference manager that sometimes mangles things, so I'm worried some DOIs, years, or author names are wrong — and I want to be sure every reference is real.",
+  "input_files": ["inputs/main.typ", "inputs/refs.yml"],
+  "assertions": [
+    {"text": "Flags the incorrect publication year for lecun2015 (bib says 2016; correct is 2015)"},
+    {"text": "Flags the author-name error for lecun2015 (given name 'Yoram' should be 'Yoshua' Bengio)"},
+    {"text": "Flags 'K. He' in he2016 as initial-only AND does not expand it to 'Kaiming'"},
+    {"text": "Flags silver2016 title as not matching the published title (missing 'and tree search')"},
+    {"text": "Flags zhang2021 as a possible fabricated/hallucinated reference (DOI does not resolve and no title match)"},
+    {"text": "Reports attention2017 as an orphan citation (cited in text but absent from the bibliography)"},
+    {"text": "Reports zhang2021 as unused (in the bibliography but never cited)"},
+    {"text": "Nowhere in the output does it invent or 'complete' an author's full name from a bare initial"}
+  ]
+}

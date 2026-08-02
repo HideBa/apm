@@ -1,0 +1,65 @@
+lecun2015:
+  type: article
+  title: Deep learning
+  author:
+    - given-name: Yann
+      name: LeCun
+    - given-name: Yoram
+      name: Bengio
+    - given-name: Geoffrey
+      name: Hinton
+  date: 2016
+  parent:
+    type: periodical
+    title: Nature
+  serial-number:
+    doi: 10.1038/nature14539
+
+he2016:
+  type: article
+  title: Deep Residual Learning for Image Recognition
+  author:
+    - given-name: K.
+      name: He
+    - given-name: Xiangyu
+      name: Zhang
+    - given-name: Shaoqing
+      name: Ren
+    - given-name: Jian
+      name: Sun
+  date: 2016
+  parent:
+    type: proceedings
+    title: IEEE Conference on Computer Vision and Pattern Recognition
+  serial-number:
+    doi: 10.1109/CVPR.2016.90
+
+silver2016:
+  type: article
+  title: Mastering the game of Go using deep neural networks
+  author:
+    - given-name: David
+      name: Silver
+    - given-name: Aja
+      name: Huang
+  date: 2016
+  parent:
+    type: periodical
+    title: Nature
+  serial-number:
+    doi: 10.1038/nature16961
+
+zhang2021:
+  type: article
+  title: A Unified Framework for Adaptive Neural Widget Optimization
+  author:
+    - given-name: Wei
+      name: Zhang
+    - given-name: Li
+      name: Chen
+  date: 2021
+  parent:
+    type: periodical
+    title: Journal of Neural Systems
+  serial-number:
+    doi: 10.9999/jns.2021.0473

@@ -1,0 +1,15 @@
+{
+  "eval_id": 1,
+  "eval_name": "02-latex-consistency",
+  "prompt": "Can you do a consistency check on my paper before I submit it? I want to make sure my abbreviations are defined properly and used consistently, and that I'm not mixing British and American spelling or hyphenation. The paper is paper.tex and the references are in refs.bib.",
+  "input_files": ["inputs/paper.tex", "inputs/refs.bib"],
+  "assertions": [
+    {"text": "Flags GAN as used before it is defined"},
+    {"text": "Flags SVM as defined more than once (Support Vector Machine appears as a definition twice)"},
+    {"text": "Flags the mixed US/UK spelling behaviour vs behavior"},
+    {"text": "Flags the mixed US/UK spelling optimise vs optimize"},
+    {"text": "Flags the inconsistent hyphenation fine-tuning vs finetuning"},
+    {"text": "Flags 'K.' (He) in refs.bib as initial-only and does not expand it to a full name"},
+    {"text": "Does not raise false-positive acronym errors for acronyms that are used correctly"}
+  ]
+}

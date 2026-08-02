@@ -1,0 +1,47 @@
+lecun2015:
+  type: article
+  title: Deep learning
+  author:
+    - given-name: Yann
+      name: LeCun
+    - given-name: Yoshua
+      name: Bengio
+    - given-name: Geoffrey
+      name: Hinton
+  date: 2017
+  parent:
+    type: periodical
+    title: Nature
+  serial-number:
+    doi: 10.1038/nature14539
+
+he2016:
+  type: article
+  title: Deep Residual Learning for Image Recognition
+  author:
+    - given-name: K.
+      name: He
+    - given-name: Xiangyu
+      name: Zhang
+    - given-name: Shaoqing
+      name: Ren
+    - given-name: Jian
+      name: Sun
+  date: 2016
+  serial-number:
+    doi: 10.1109/CVPR.2016.90
+
+silver2016:
+  type: article
+  title: Mastering the game of Go with deep neural networks and tree search
+  author:
+    - given-name: David
+      name: Silver
+    - given-name: Aja
+      name: Huang
+  date: 2016
+  parent:
+    type: periodical
+    title: Nature
+  serial-number:
+    doi: 10.1038/nature16961

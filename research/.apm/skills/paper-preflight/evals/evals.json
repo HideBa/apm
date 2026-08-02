@@ -1,0 +1,26 @@
+{
+  "skill_name": "paper-preflight",
+  "evals": [
+    {
+      "id": 0,
+      "name": "01-typst-refs-integrity",
+      "prompt": "I'm about to submit this paper to a journal. Before I do, can you carefully check the references? The paper is main.typ and the bibliography is refs.yml (Typst + Hayagriva). I used a reference manager that sometimes mangles things, so I'm worried some DOIs, years, or author names are wrong — and I want to be sure every reference is real.",
+      "expected_output": "Report flagging: lecun2015 wrong year (2016->2015) and wrong author given name (Yoram->Yoshua); he2016 'K. He' initial-only, not expanded; silver2016 title mismatch; zhang2021 fabricated (DOI unresolvable); attention2017 orphan; zhang2021 unused. No invented full names.",
+      "files": ["main.typ", "refs.yml"]
+    },
+    {
+      "id": 1,
+      "name": "02-latex-consistency",
+      "prompt": "Can you do a consistency check on my paper before I submit it? I want to make sure my abbreviations are defined properly and used consistently, and that I'm not mixing British and American spelling or hyphenation. The paper is paper.tex and the references are in refs.bib.",
+      "expected_output": "Report flagging: GAN used-before-defined; SVM defined twice; behaviour/behavior mix; optimise/optimize mix; fine-tuning/finetuning hyphenation; refs.bib 'K.' He initial-only not expanded. No false positives on correctly used acronyms.",
+      "files": ["paper.tex", "refs.bib"]
+    },
+    {
+      "id": 2,
+      "name": "03-holistic-final-pass",
+      "prompt": "Final pre-submission pass on my manuscript please. Flag anything wrong with the citations, the way I've described what those cited papers actually found, or inconsistent wording. It's manuscript.typ with refs.yml.",
+      "expected_output": "Report flagging: lecun2015 wrong year (2017->2015); 'K. He' initial-only not expanded; vaswani2017 orphan; the AlphaGo '40% training compute' claim as unsupported/needs-verification; leaves the correct ResNet 3.57% claim; behaviour/behavior mix. Clear severity + suggested edits.",
+      "files": ["manuscript.typ", "refs.yml"]
+    }
+  ]
+}
