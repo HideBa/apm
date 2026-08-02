@@ -188,11 +188,13 @@ dependencies:
 local_deployed_files:
 - .claude/skills/paper-preflight
 - .claude/skills/paper-preflight/SKILL.md
+- .claude/skills/paper-preflight/evals/evals.json
 - .claude/skills/paper-preflight/references/formats.md
 - .claude/skills/paper-preflight/scripts/check_consistency.py
 - .claude/skills/paper-preflight/scripts/verify_refs.py
 local_deployed_file_hashes:
   .claude/skills/paper-preflight/SKILL.md: sha256:86509d80c4cde3bd27ac6683c31560dc8d0bfda6873912a16f5883396e61c856
+  .claude/skills/paper-preflight/evals/evals.json: sha256:a9b74fbb13ab52e175ad8b68c03fcecd42baa56cc0d878aefce54737149d45d0
   .claude/skills/paper-preflight/references/formats.md: sha256:0a17a5e151beaaebc354104986621a513ebc07b9d5e5df58e0e18e56ec2769a9
-  .claude/skills/paper-preflight/scripts/check_consistency.py: sha256:ee9efcfc0bd76da5c120783d1406a31d7bb83f039e3f5715da664acdccf31ed5
-  .claude/skills/paper-preflight/scripts/verify_refs.py: sha256:86cbb59617848ef5138e779d7235d72f3302a9bc28e1107121a438b8a91d6931
+  .claude/skills/paper-preflight/scripts/check_consistency.py: sha256:226a726d2023510a1b242a5fb9598177a5c2de69d5ec4f54b483854f5a90a109
+  .claude/skills/paper-preflight/scripts/verify_refs.py: sha256:1d8b78ff7555196670e80eec7bb4ddc9a7d14be1f85e904ab14f3023f2a92da2
